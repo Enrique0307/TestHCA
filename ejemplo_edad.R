@@ -20,3 +20,5 @@ mod_edad <-
   declare_inquiry(mean_age = mean(age)) +
   declare_sampling(S = complete_rs(N = N, n = n_samp)) +
   declare_estimator(age ~ 1, model = lm) 
+
+Ejemplo N
